@@ -1,8 +1,5 @@
 library(plyr)
 
-# THIS WAS COPIED FROM https://github.com/wdluft/getting-and-cleaning-data-week-4-project
-# SHOULD NOT BE ACCEPTED AS A NEW SUBMISSION
-
 # Download the dataset
 if(!file.exists("./getcleandata")){dir.create("./getcleandata")}
 fileurl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
